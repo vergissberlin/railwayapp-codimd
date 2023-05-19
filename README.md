@@ -2,8 +2,7 @@
 
 Deploy CodiMD on railway
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/fwbafn?referralCode=2_sIT9)
-
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/YcOXBV?referralCode=2_sIT9)
 ## ✨ Features
 
 * CodiMD with automated setup
@@ -157,9 +156,7 @@ Deploy CodiMD on railway
 
 ### Essentials
 
- 
-
-```bash
+ ```bash
 PORT=3000 # Don't change this
 ```
 
@@ -168,10 +165,7 @@ PORT=3000 # Don't change this
 
 ## 👩‍💻 How to Use
 
-1. When you configure your CodiMD connection, use your custom URL as the host but be aware that **the port is 443**! Example: `https://demo-codimd.up.railway.app:443`.
-2. Use the token in the environment variables to authenticate
-3. Setup bucket name and organization name in the environment variables
-4. Use codimd version 2.0 or above
+1. Setup your credentials in the environment variables
 
 ## 🐳  Local Development
 
@@ -179,4 +173,4 @@ PORT=3000 # Don't change this
 docker compose up -d
 ```
 
-Connect to http://localhost:8086 use setup username & password from docker-compose file to login to codimd.
+Connect to http://localhost:3000 use setup username & password from docker-compose file to login to codimd.
