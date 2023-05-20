@@ -2,6 +2,7 @@
 
 !/.gitignore
 !/codimd-logo.png
+!/codimd-logo-white.png
 !/docker-compose.yml
 !/Dockerfile
 !/LICENSE
