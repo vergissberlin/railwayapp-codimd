@@ -154,6 +154,12 @@ Deploy CodiMD on railway
  }
  ```
 
+```bash
+CMD_USECDN=false
+f=${{RAILWAY_STATIC_URL}}
+CMD_PROTOCOL_USESSL=true
+```
+
 ### Essentials
 
  ```bash
@@ -166,6 +172,10 @@ PORT=3000 # Don't change this
 ## 👩‍💻 How to Use
 
 1. Setup your credentials in the environment variables
+
+## 🪲 Bug Reporting
+
+If you find a bug in CodiMD template for reailway, you can [submit an issue](https://github.com/vergissberlin/railwayhttps://github.com/vergissberlin/railwayapp-codimd/issues/new) to the GitHub Repository. Even better you can submit a Pull Request with a fix.
 
 ## 🐳  Local Development
 
