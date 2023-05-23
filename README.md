@@ -156,7 +156,8 @@ Deploy CodiMD on railway
 
 ```bash
 CMD_USECDN=false
-f=${{RAILWAY_STATIC_URL}}
+CMD_DOMAIN=${{RAILWAY_STATIC_URL}}
+CMD_URL_ADDPORT=false
 CMD_PROTOCOL_USESSL=true
 ```
 

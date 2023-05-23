@@ -1,3 +1,3 @@
-ARG VERSION=2.4.2
+ARG VERSION=latest
 
 FROM hackmdio/hackmd:${VERSION}
