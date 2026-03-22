@@ -2,9 +2,18 @@
 
 !/.env
 !/.gitignore
+!/.dockerignore
+!/.github/
+!/.github/workflows/
+!/.github/workflows/release-please.yml
 !/codimd-logo.png
 !/codimd-logo-white.png
 !/docker-compose.yml
 !/Dockerfile
 !/LICENSE
 !/README.md
+!/railway.toml
+!/release-please-config.json
+!/.release-please-manifest.json
+!/CHANGELOG.md
+!/version.txt

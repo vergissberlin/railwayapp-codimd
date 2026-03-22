@@ -7,6 +7,14 @@ Deploy CodiMD on railway
 
 * CodiMD with automated setup
 * CodiMD settings as environment variables
+* Railway config as code via `railway.toml`
+
+## Production recommendations (Railway)
+
+* Keep secrets in Railway Variables, never commit them to `.env`
+* Use a managed Postgres service and set `CMD_DB_URL` accordingly
+* Keep `CMD_PROTOCOL_USESSL=true` and `CMD_URL_ADDPORT=false` when using Railway domains
+* Attach a persistent volume for uploads at `/home/hackmd/app/public/uploads`
 
 ## 🐍 How to Deploy
 
@@ -165,6 +173,7 @@ CMD_PROTOCOL_USESSL=true
 
  ```bash
 PORT=3000 # Don't change this
+CMD_DB_URL=postgres://<user>:<password>@<host>/<db>
 ```
 
 2. Wait for Build & Deployment to Finish
