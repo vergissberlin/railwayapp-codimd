@@ -2,7 +2,7 @@
 
 Deploy CodiMD on railway
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/YcOXBV?referralCode=2_sIT9)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/YcOXBV?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 ## ✨ Features
 
 * CodiMD with automated setup
