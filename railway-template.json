@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vergissberlin/railway/main/docs/railway-template.schema.json",
+  "schemaVersion": 1,
+  "project": "railwayapp-codimd",
+  "repo": "vergissberlin/railwayapp-codimd",
+  "displayName": "CodiMD",
+  "publishedCode": "codimd",
+  "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-codimd/main/template-header.svg",
+  "description": "Deploy CodiMD collaborative Markdown notes on Railway with Postgres.",
+  "workspaceAutomation": false
+}
