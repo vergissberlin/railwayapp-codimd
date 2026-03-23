@@ -194,3 +194,6 @@ docker compose up -d
 ```
 
 Connect to http://localhost:3000 use setup username & password from docker-compose file to login to codimd.
+
+<!-- footer -->
+[![CodiMD](https://img.shields.io/badge/CodiMD-0F766E?style=for-the-badge&logo=markdown&logoColor=white)](https://github.com/vergissberlin/railwayapp-codimd)
