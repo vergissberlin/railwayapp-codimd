@@ -18,6 +18,7 @@ Deploy CodiMD on railway
 * Use a managed Postgres service and set `CMD_DB_URL` accordingly
 * Keep `CMD_PROTOCOL_USESSL=true` and `CMD_URL_ADDPORT=false` when using Railway domains
 * Attach a persistent volume for uploads at `/home/hackmd/app/public/uploads`
+* This upload mount is enforced via `requiredMountPath` in `railway.toml`
 
 ## 🐍 How to Deploy
 
