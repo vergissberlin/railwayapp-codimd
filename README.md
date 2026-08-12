@@ -12,6 +12,16 @@ Deploy CodiMD on railway
 * CodiMD settings as environment variables
 * Railway config as code via `railway.toml`
 
+## 🏗️ Architecture
+
+```mermaid
+flowchart LR
+    Client(["🌐 Client"]) -->|HTTPS| Domain["Railway Public Domain"]
+    Domain -->|"$PORT"| App["Container\nhackmdio/hackmd"]
+    App --> Volume[("Volume\n/home/hackmd/app/public/uploads")]
+    App -.->|"CMD_DB_URL"| DB[("Separate Railway service\nPostgreSQL (you add)")]
+```
+
 ## Production recommendations (Railway)
 
 * Keep secrets in Railway Variables, never commit them to `.env`
